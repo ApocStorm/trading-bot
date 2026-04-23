@@ -97,4 +97,9 @@ HOLD. 100% cash, no positions, major earnings volatility today. Patience > activ
 - Field prior: fewer trades tend to beat more trades
 
 ### Decision
-HOLD. The setup is right (sector leadership + live catalyst) but the entry is wrong (4th green day, no pullback). Yesterday's plan explicitly said "pullback-and-reclaim, not chasing" — today is the chase day. Wait for a 2-3% consolidation in oil or XLE to attempt entry. Patience > activity. Re-evaluate midday scan and Friday pre-market.
+TRADE (cold-start exception invoked: 100% cash, no prior positions).
+- Relaxed filter "within 5% of 20DMA" applied in place of pullback-and-reclaim.
+- XLE 20DMA $58.71 vs spot $56.64 → 3.5% below 20DMA. Filter passes; XLE is actually a reclaim-attempt from the April low, not a breakout chase.
+- Took one starter position (5% equity): XLE 75 sh @ $56.63, 10% trailing stop GTC @ $50.97.
+- XLB skipped — relaxed filter passes (+1.6% above 20DMA) but no specific fresh catalyst today, so the buy-side catalyst gate fails.
+- GEV/PSX skipped — quotes too wide post-earnings.
