@@ -63,3 +63,32 @@ TRADE or HOLD (default HOLD if no edge)
 
 ### Decision
 HOLD. 100% cash, no positions, major earnings volatility today. Patience > activity. Re-evaluate Thursday once earnings dust settles; prefer entries in XLE/XLB on confirmed pullback-and-reclaim, not chasing.
+
+---
+
+## 2026-04-23 — Pre-market Research
+
+### Account
+- Equity: $85,009.95
+- Cash: $80,752.75 (95%)
+- Buying power: $165,762.70
+- Daytrade count: 1
+- Positions: 0 at open | Open orders: 0 at open
+
+### Market Context
+- Follow-through day after Wednesday's heavy earnings print; TSLA AMC digested overnight
+- Energy sector remains YTD leader alongside Materials; WTI/Brent bid on unresolved Iran tensions
+- No top-tier US macro release today
+- Sector momentum unchanged: Materials/Energy/Industrials/Staples lead; Tech/Comm lag
+
+### Trade Ideas
+1. XLE — starter long, cold-start exception. Catalyst: YTD sector leadership + WTI bid + data-center power demand thesis carrying Energy. Entry market at open, stop 10% GTC trailing, target +15% (R:R ~1.5:1 at 10% trail).
+2. XLB — Materials sector leader. Deferred: IEX daily-bar feed insufficient to confirm within-5%-of-20DMA pullback-and-reclaim; skip rather than chase. Revisit midday if SIP bars available.
+
+### Risk Factors
+- Single-name earnings volatility still bleeding into sector ETFs
+- VIX creeping off a low base
+- Only 2 trades/week remaining after XLE
+
+### Decision
+TRADE — 1 starter (XLE) per cold-start exception; cash still 95%, room for 2 more weekly trades if catalysts firm up.
