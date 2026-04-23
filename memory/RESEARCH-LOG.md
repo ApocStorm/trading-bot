@@ -63,3 +63,38 @@ TRADE or HOLD (default HOLD if no edge)
 
 ### Decision
 HOLD. 100% cash, no positions, major earnings volatility today. Patience > activity. Re-evaluate Thursday once earnings dust settles; prefer entries in XLE/XLB on confirmed pullback-and-reclaim, not chasing.
+
+---
+
+## 2026-04-23 — Pre-market Research
+
+### Account
+- Equity: $85,000
+- Cash: $85,000 (100%)
+- Buying power: $170,000
+- Daytrade count: 0
+- Positions: 0 | Open orders: 0
+
+### Market Context
+- WTI: $94.46 (+1.67%) | Brent: $103.38 (+1.44%) — 4th straight up session; Iran captured 2 container ships in Gulf → supply-disruption premium
+- S&P 500: record close 7,137.90 (+1.05%) Wed on extended Iran ceasefire + earnings strength; ES futures −0.46% premarket (Iran peace talks stalled)
+- VIX: 18.92 (−2.97%), range 18.68–19.54 — back to low-vol regime
+- Today's catalysts: heavy earnings Thursday — INTC, CAT, HON, UNP, LMT, BX, CMCSA, FCX, GILD, NEM, TMO, NEE, AXP, AMP before open; TSLA after-hours yesterday flipped red on $25B capex (up from $20B guide) despite EPS beat
+- Earnings before open: AXP, HON, CAT, UNP, LMT, BX, CMCSA, FCX, GILD, NEM, TMO, NEE, TMO (INTC after-close per source)
+- Economic calendar: no top-tier release (no CPI/PPI/FOMC/NFP); Thursday macro = weekly jobless claims + S&P Global flash PMIs + new home sales
+- Sector momentum YTD: Energy +21%, Materials +17%, Staples +15%, Industrials +12% — still the leadership. XLE & XLB firmly in "Leading" quadrant (strength + momentum, potentially overbought)
+
+### Trade Ideas
+1. XLE — Energy leadership YTD +21% + WTI $94+ bid on Iran Gulf tanker seizure. WAIT for pullback entry ~$95, stop $88.35 (−7%), target ~$108, R:R ~2:1. Do not chase day 4 of a rally. Source: Investing.com sector rotation + oil news.
+2. XLI — Industrials +12% YTD, AI/data-center/defense capex tailwinds, but CAT/HON/LMT/UNP all print pre-open today → single-name gap risk for the ETF. Revisit Friday once reactions settle; entry on confirmed reclaim of 20DMA, 7% stop, 15% target. Source: Investing.com sector rotation.
+3. INTC — +74% YTD, reports AFTER close today. Do NOT touch into or on the print. If it holds a post-earnings gap above $70 with volume, revisit next week. Source: TradingKey INTC preview.
+
+### Risk Factors
+- ES futures already −0.46% after record close — reflex pullback risk at ATHs (P/E stretched)
+- TSLA's $25B capex whack overnight may weigh on mega-cap sentiment
+- Massive single-name earnings day — INTC/CAT/HON/UNP/LMT/CMCSA/FCX/GILD all capable of ±5% gaps, sector whipsaw
+- Iran Gulf tanker seizures + stalled US-Iran talks = oil spike tail risk → downside for growth/discretionary, upside for XLE
+- Only 3 trades/week cap; no idea today clears the buy-side gate with a documented, non-earnings catalyst
+
+### Decision
+HOLD. 100% cash. Second consecutive session with heavy earnings noise + no top-tier macro edge. XLE is extended 4 days running; XLI is held hostage by industrial prints; INTC is a post-close event. Patience > activity — wait for XLE pullback or Friday XLI reclaim.
