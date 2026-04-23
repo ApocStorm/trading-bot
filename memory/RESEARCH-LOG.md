@@ -63,3 +63,38 @@ TRADE or HOLD (default HOLD if no edge)
 
 ### Decision
 HOLD. 100% cash, no positions, major earnings volatility today. Patience > activity. Re-evaluate Thursday once earnings dust settles; prefer entries in XLE/XLB on confirmed pullback-and-reclaim, not chasing.
+
+---
+
+## 2026-04-23 — Pre-market Research
+
+### Account
+- Equity: $85,000
+- Cash: $85,000 (100%)
+- Buying power: $170,000
+- Daytrade count: 0
+- Positions: 0 | Open orders: 0
+
+### Market Context
+- WTI: ~$94.46 (+1.67%) | Brent: ~$103.38 (+1.44%) — 4th consecutive up day; Iran captured two tankers in Gulf → supply-disruption fear. Brent >$100 first time since 2022.
+- S&P 500: ~7,138 (+1.05% recent); June E-mini futures positive premarket
+- VIX: ~18.92 (-3.0%) — vol receding despite TSLA wobble
+- Today's catalysts: TSLA -2.9% premarket (Q1 slight EPS beat, revenue miss, capex guide to $25B from $20B); Iran tanker capture keeps oil bid; jobless claims 207k vs 218k prior (labor still firm)
+- Earnings before open: AXP, CMCSA, HON, LMT, NEE, NOK, NDAQ, AAL, PSX, DCOM (166 total reports today)
+- Economic calendar: Initial jobless claims (released, 207k — firm). No top-tier CPI/PPI/FOMC today.
+- Sector momentum YTD: Energy +22.7%, Materials +16.3%, Industrials +14.3% — same leadership. Energy Q1 was standout; EIA projects +35%+ earnings growth next 4 quarters.
+
+### Trade Ideas
+1. XLE @ $56.84 — YTD sector leader + fresh Iran/Gulf catalyst + Brent >$100. Would buy ~$57 with 10% trailing stop ($51.16), target $68, R:R ~2:1. BUT: 4th consecutive up day = chasing, not pullback. Source: TradingEconomics oil quote / S&P sector dashboard.
+2. XLB @ $51.71 — #2 YTD sector (+16%). Materials broadening. No fresh catalyst today. Source: SPGI sector dashboard.
+3. GEV — quote very wide ($1087/$1138 spread), illiquid mid-morning read. Pass on quality-of-fill grounds.
+
+### Risk Factors
+- TSLA capex shock may bleed into Nasdaq/EV/AI-infra names mid-morning
+- Oil has run 4 straight sessions — buying here = buying green day #5 into geopolitical headline risk (de-escalation = gap down)
+- Only 3 trades/week; don't burn one on a chase
+- PSX quote wide ($152/$170) — wait for earnings print to settle
+- Field prior: fewer trades tend to beat more trades
+
+### Decision
+HOLD. The setup is right (sector leadership + live catalyst) but the entry is wrong (4th green day, no pullback). Yesterday's plan explicitly said "pullback-and-reclaim, not chasing" — today is the chase day. Wait for a 2-3% consolidation in oil or XLE to attempt entry. Patience > activity. Re-evaluate midday scan and Friday pre-market.
