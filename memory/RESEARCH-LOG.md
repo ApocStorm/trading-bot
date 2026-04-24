@@ -92,3 +92,39 @@ HOLD. 100% cash, no positions, major earnings volatility today. Patience > activ
 
 ### Decision
 TRADE — 1 starter (XLE) per cold-start exception; cash still 95%, room for 2 more weekly trades if catalysts firm up.
+
+---
+
+## 2026-04-24 — Pre-market Research
+
+### Account
+- Equity: $84,987.25
+- Cash: $80,752.75 (95%)
+- Buying power: $165,740
+- Daytrade count: 0
+- Positions: 1 (XLE 75 sh @ $56.63, mkt $56.46, UPL -$12.75 / -0.3%)
+- Open orders: 1 (XLE trailing_stop GTC 10%, stop $51.42, HWM $57.13) — verified intact
+
+### Market Context
+- WTI ~$97.71 (+1.9%) | Brent ~$107.38 (+2.2%) — Hormuz standoff re-escalating after Wed's ceasefire-driven -18% oil dump; Israel-Lebanon truce extended
+- S&P 500 closed ~7,137.90 (+1.05%) Thu; ES front-month -0.42% premarket, NQ +0.9% on INTC strong print + TXN +most-in-25-years
+- VIX ~19.0 (+0.5%) — modest bid off a low base
+- Today's catalysts: INTC/TXN carrying semis; PG/HCA/NSC earnings pre-open; Hormuz headline risk
+- Earnings before open: PG, HCA, NSC (INTC, TXN already out post-close Thu)
+- Economic calendar: Advance Durable Goods 8:30 ET, UMich Consumer Sentiment final 10:00 ET — no CPI/PPI/FOMC/NFP
+- Sector momentum YTD: Energy +22.7% | Materials +16.3% | Industrials +14.3% still leading; Tech/Comm lag; Energy gave back ~4.7% Wed then re-bid on Hormuz
+- Held-ticker news: XLE whipped -4.7% Wed on Trump ceasefire / oil -18%; partially recovered as Hormuz tensions re-ignited. Thesis (sector leadership + WTI bid + data-center power) intact; stop handles downside.
+
+### Trade Ideas
+1. HOLD XLE — no action; trailing stop $51.42 handles further Hormuz-reversal dump; HWM $57.13. Let the trail work.
+2. XLB — Materials still +16% YTD. Deferred again: no clean pullback-and-reclaim signal off daily bars, cross-sector whipsaw raising noise. Revisit midday or Monday.
+3. SLB / XOM — single-name Hormuz re-escalation plays. Skip: would double energy concentration on top of XLE, earnings-volatility day. Patience > activity.
+
+### Risk Factors
+- Hormuz headline risk cuts both ways — another ceasefire headline could gap XLE down hard
+- UMich sentiment final 10:00 ET could whipsaw index into the open
+- Semis strength (INTC/TXN) may pull cash out of Energy rotation temporarily
+- Only 2 trades remaining this week; no catalyst clean enough to burn one
+
+### Decision
+HOLD. Existing XLE position is adequate sector exposure; no new catalyst clean enough to deploy a 2nd trade pre-open. Reassess at midday scan once Durable Goods + UMich print and Hormuz tape settles.
