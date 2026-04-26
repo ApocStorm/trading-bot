@@ -58,20 +58,60 @@ bash scripts/perplexity.sh "<query>" for each:
 If Perplexity exits 3, fall back to native WebSearch and note the
 fallback in the log entry.
 
+STEP 3b — MANDATORY STRONG-REC OUTPUT (always fires, regardless of caps).
+
+Kevin's explicit directive 2026-04-24: every pre-market run MUST emit
+ranked buy/sell ideas for Hybrid, even when position cap is full, Cold-Start
+exception is disabled, weekly trade count is maxed, or execution is
+otherwise blocked. Do NOT skip this. Do NOT silence it.
+
+Produce TWO ranked lists to include in the RESEARCH-LOG write below:
+
+A) TOP 3 BUY CANDIDATES — format as a markdown table:
+   | Rank | Ticker | Last | Entry trigger | Stop | Target | R:R | Conviction | Thesis |
+   - Rank by conviction: STRONG BUY > BUY > WATCH.
+   - Source from today's Gov-Watch, Perplexity catalyst scan, news on
+     any currently-held ticker.
+   - Emit list regardless of whether positions == cap or Cold-Start is
+     disabled. List is recommendation-only when blocked; still emit it.
+
+B) TOP 3 SELL / TRIM / SWAP candidates from current book:
+   - For EVERY held position: STRONG HOLD / HOLD / TRIM / SELL rating.
+   - Name the weakest 1–3 with reason (RS drop, 50-MA breach, thesis decay,
+     catalyst expired, better opportunity below).
+   - If capped AND a STRONG BUY outranks the weakest HOLD, emit a SWAP:
+       "SWAP: Sell <WEAK> → Buy <NEW>. Reason: <one line>."
+
+C) Status label:
+   - EXECUTE: all rules pass (cap ≤ 6, weekly ≤ 3, sizing ≤ 20%, cash OK,
+     Cold-Start applicable when triggered).
+   - RECOMMEND-ONLY: blocked by a rule — picks logged + sent anyway.
+
+D) Telegram — ALWAYS send the picks in PLAIN ENGLISH. Overrides
+   "silent on success".
+   - Read `routines/TELEGRAM-STYLE.md` and follow its rules and template
+     exactly. Kevin is not a trader — no fintech jargon, no ticker-only
+     references, no R:R / UPL / stop% shorthand. Always name the company
+     and say what it does in one sentence.
+   - Use the "Strong-Rec pre-market message" template from TELEGRAM-STYLE.md.
+     First line should be: `🟢 Nate's Hybrid — <weekday> picks`.
+   - Build the message, then: `bash scripts/telegram.sh "$MSG"`.
+   - Errors/issues still follow standard policy (also plain English).
+
 STEP 4 — Write a dated entry to memory/hybrid/RESEARCH-LOG.md:
 - Account snapshot (equity, cash, buying power, daytrade count)
 - Market context (oil, indices, VIX, today's releases)
 - Gov-Watch picks in play (ticker + legislator + score from GOV-WATCHLIST.md,
   if any). Flag any that already pass guardrails as candidate trade ideas.
-- 2-3 actionable trade ideas WITH catalyst + entry/stop/target
+- **STRONG RECS (from STEP 3b) — Top 3 Buys + Top 3 Sell/Swap, verbatim.**
 - Risk factors for the day
-- Decision: TRADE or HOLD (default HOLD — patience > activity)
+- Decision: EXECUTE or RECOMMEND-ONLY
 - Cold-Start note: exception may apply when cash > 50% and no position held
   > 1 trading day (see TRADING-STRATEGY.md).
 
-STEP 5 — Notification: silent unless something is urgent. Urgent means a
-held position is already below -7% in pre-market, a thesis broke overnight,
-or a major geopolitical event. Send via:
+STEP 5 — Notification: the STRONG RECS Telegram from STEP 3b always fires.
+Additional Gmail only if urgent: a held position already below -7% in
+pre-market, a thesis broke overnight, or a major geopolitical event:
   bash scripts/gmail.sh "Hybrid pre-market alert $DATE" <<< "<one-line summary>"
 
 STEP 6 — COMMIT AND PUSH (mandatory):
