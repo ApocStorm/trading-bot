@@ -128,3 +128,80 @@ TRADE — 1 starter (XLE) per cold-start exception; cash still 95%, room for 2 m
 
 ### Decision
 HOLD. Existing XLE position is adequate sector exposure; no new catalyst clean enough to deploy a 2nd trade pre-open. Reassess at midday scan once Durable Goods + UMich print and Hormuz tape settles.
+
+---
+
+## 2026-04-28 — Pre-market Research
+
+### Account
+- Equity: $100,689.43 (last close $101,076.23, overnight -0.4%)
+- Cash: $79,271.23 (78.7% cash)
+- Buying power: $179,960.66
+- Daytrade count: 0
+- Positions: 5 of 6 (room for 1) | Open orders: 5 (all trailing_stop GTC 10%, verified intact)
+
+| Ticker | Qty | Avg Entry | Mkt | UPL | UPL% | Stop | HWM |
+|--------|-----|-----------|-----|-----|------|------|-----|
+| APD | 10 | $297.59 | $302.00 | +$44.08 | +1.48% | $276.56 | $307.29 |
+| AVGO | 10 | $398.23 | $403.01 | +$47.80 | +1.20% | $386.38 | $429.31 |
+| FN | 10 | $723.55 | $664.94 | -$586.10 | -8.10% | $657.90 | $731.00 |
+| GOOGL | 10 | $336.21 | $350.77 | +$145.62 | +4.33% | $317.86 | $353.18 |
+| MSFT | 10 | $418.37 | $421.10 | +$27.34 | +0.65% | $390.04 | $433.38 |
+
+### Market Context
+- WTI: ~$96 | Brent: ~$111 — Hormuz tensions re-escalating; Iran ceasefire proposal viewed skeptically by Trump admin; oil bid into all-time highs.
+- S&P 500: 7,165.08 close Friday (record) | ES futures: ~7,195 (+0.7%) into Tuesday open.
+- VIX: 18.02 — calm; risk-on tape.
+- Today's catalysts: Consumer Confidence (10:00 ET), S&P/Case-Shiller HPI, FHFA Housing. **2-day FOMC meeting starts today** (rate decision Wed 2pm).
+- Earnings before open: SPOT, UPS, AMT, GLW, GM, PCAR, BP, KO (~198 reports total today).
+- Mega-cap earnings AMC tomorrow (Apr 29): MSFT, GOOGL, META, AMZN — held positions in MSFT and GOOGL going into print. AAPL Apr 30. APD reports Apr 30 BMO.
+- Sector momentum YTD: Energy +22.7% leader | Materials +16.3% | Industrials +14.3% | Tech/Comm Services lagging (Comm Svcs -0.14%, Tech -3.42% YTD per Q1 SPDJI dashboard).
+- Held-ticker news: AVGO expanded multi-year Meta + Google TPU partnerships through 2031 (AI chip moat deepens); FN AI-optics revenue +29% YoY w/ DCI +42%, JPM cut to neutral but raised PT to $700; APD reaffirmed FY26 guidance.
+- (Perplexity unavailable — empty PERPLEXITY_API_KEY in repo .env; market context sourced via native WebSearch.)
+
+### Gov-Watch Picks (from GOV-WATCHLIST.md, refreshed 2026-04-23)
+- FN — Gottheimer (D) score 46.8 — **already held** (-8.1%, see SWAP below)
+- FSS — Gottheimer (D) score 39.5 — earnings tomorrow Apr 29, defer
+- APD — Gottheimer (D) score 37.6 — **already held** (+1.5%)
+- SE — Gottheimer (D) score 34.4 — fresh idea, no near-term earnings
+- IFNNY — Gottheimer (D) score 18.0 — Infineon ADR, low conviction
+- NOW — Gottheimer (D) score 1.9 — capitulated post-Q1, falling-knife risk
+
+### STRONG RECS (from STEP 3b)
+
+#### A) Top 3 BUY candidates
+
+| Rank | Ticker | Last | Entry trigger | Stop | Target | R:R | Conviction | Thesis |
+|---|---|---|---|---|---|---|---|---|
+| 1 | SE | ~$86 | Market open Tue | $77.50 (-10%) | $99 (+15%) | ~1.5:1 | **STRONG BUY** | Sea Ltd: Shopee + Garena + Monee. FY25 rev +36%, EPS +255%. Strong Buy consensus, $173 12-mo target (~100% upside). Recovering from March overshoot dump. Gov-watch score 34.4. No near-term earnings risk. |
+| 2 | FSS | ~$116 | Wed PM if post-print reclaim | $104 (-10%) | $133 (+15%) | ~1.5:1 | **WATCH** | Federal Signal: street-sweeping/sewer/safety vehicles. FY26 guide $4.50–4.80 EPS / $2.55–2.65B sales. Industrials sector tailwind. Earnings BMO Wed Apr 29 — defer entry until post-print. |
+| 3 | NOW | ~$91 | Reclaim of 10-day MA | $82 (-10%) | $105 (+15%) | ~1.5:1 | **WATCH** | ServiceNow: -30% YTD / -18% post-Q1 capitulation despite EPS+rev beat. AI revenue trajectory $1.5B+ in 2026 per CEO. Wait for base; falling-knife risk too high to enter today. |
+
+#### B) Sell / Trim / Swap on current book
+
+- **APD** — STRONG HOLD. +1.5% UPL, defensive Materials, FY26 EPS guide reaffirmed. Earnings Apr 30 BMO — moderate event risk; trail intact at $276.56.
+- **AVGO** — STRONG HOLD. +1.2% UPL, Meta + Google TPU multi-year deals through 2031 deepen AI moat; trail at $386.38.
+- **FN** — **SELL**. -8.1% breaches the -7% manual cut threshold. Trailing stop at $657.90 is ~1% below current $664.94; can let trail catch it OR market-sell to enforce policy.
+- **GOOGL** — STRONG HOLD into print. +4.3% UPL, Strong Buy consensus, 9-quarter beat streak, cloud >50% growth + AI monetization in focus. Earnings AMC tomorrow Apr 29.
+- **MSFT** — HOLD into print. +0.65% UPL, Azure 37–38% guide is the key tell; capex 64% growth concerns offset by AI demand. Earnings AMC tomorrow Apr 29.
+
+**SWAP: Sell FN → Buy SE.** Reason: FN broke the -7% manual cut threshold; SE is the day's STRONG BUY with a documented catalyst, no near-term earnings risk, and gov-watch endorsement. Net effect: stays at 5/6 positions with a healthier sleeve.
+
+#### C) Status: **EXECUTE**
+- Position cap after swap: 5/6 ✓
+- Weekly trade count after fill: ≤ 3 (TRADE-LOG stale; live count assumed under cap — confirm at market-open routine)
+- Sizing: SE at 5% equity (~$5,000) ≪ 20% cap ✓
+- Cash $79,271 ≫ position cost ✓
+- PDT count 0 < 3 ✓
+- Catalyst documented (gov-watch score, fundamentals, sector context) ✓
+- Stock only ✓
+
+### Risk Factors
+- **Mega-cap earnings cluster tomorrow AMC**: MSFT + GOOGL (both held) + META + AMZN. Single overnight move could swing the book ±2–4%. Trailing stops handle worst-case downside.
+- **FOMC starts today**, decision Wed 2pm — index volatility risk into Wednesday close.
+- Hormuz headlines whipsaw both ways on oil; energy not directly held but cross-sector risk.
+- FN already past -7% — must address (swap or accept stop trigger).
+- Tech-heavy book (AVGO + FN + MSFT + GOOGL ≈ 71% of invested) into a Tech-lagging YTD tape; SE adds Asia/EM diversification + Comm Svcs/Disc balance.
+
+### Decision
+**EXECUTE — Swap FN → SE at market open**, plus monitor MSFT / GOOGL through tomorrow's print. FSS deferred to Wed-PM watch list. NOW remains watch-only.
