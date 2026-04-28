@@ -28,3 +28,17 @@ No positions yet. Bot launches tomorrow.
 - Realized P&L will be confirmed after 9:30 ET fill; addendum to be appended by next routine.
 - Position count after: 4/6. Weekly trade count: confirm against live count (TRADE-LOG was stale prior to this entry).
 
+
+## 2026-04-28 — Market Open
+
+| Date | Ticker | Side | Shares | Entry | Stop | Thesis | Target | R:R |
+|------|--------|------|--------|-------|------|--------|--------|-----|
+| 2026-04-28 | FN | SELL | 10 | $723.55 | mkt sell DAY | -7% rule cut (filled at open after midday queue) | n/a | n/a |
+| 2026-04-28 | SE | BUY | 59 | $85.07 | 10% GTC trail (stop $76.419) | Sea Ltd: Shopee + Garena + Monee; Q4 GMV +28% YoY, ad rev +70%; Google AI partnership; gov-watch 34.4 (Gottheimer); no near-term earnings | +15% (~$97.83) | ~1.5:1 |
+
+- FN sell filled at $650.14 (id 219d83ff-4920-48e3-a8b7-b3b0ddf3a80a) 13:30:02 UTC = 9:30 ET open. Realized loss: -$734.10 / -10.14% on 10 shares.
+- SE buy filled at $85.07 (id 110cb72d-d03b-4111-9b47-e67eb78e928c) 13:41:31 UTC. Cost basis: $5,019.13 (~5.0% equity).
+- SE trailing stop placed (id 2e9ca8d2-588d-4719-81ce-81bd85e4f8b1): `type=trailing_stop`, `time_in_force=gtc`, `trail_percent=10`, stop_price $76.419. Verified intact.
+- Position count after: 5/6 (APD, AVGO, GOOGL, MSFT, SE).
+- Weekly trade count after: 2/3 (FN sell + SE buy this week).
+- Account post-trade: equity ~$100,535, cash ~$80,750, daytrade_count 0.
