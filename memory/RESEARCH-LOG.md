@@ -205,3 +205,20 @@ HOLD. Existing XLE position is adequate sector exposure; no new catalyst clean e
 
 ### Decision
 **EXECUTE — Swap FN → SE at market open**, plus monitor MSFT / GOOGL through tomorrow's print. FSS deferred to Wed-PM watch list. NOW remains watch-only.
+
+---
+
+## 2026-04-28 — Midday Addendum
+
+Pre-market 7:19 ET scan (scheduled task name "tradebot-midday" fired pre-open).
+
+### Action taken
+- **FN sold (queued).** Position at -9.34% (mark $656 vs entry $723.55). Cancelled trailing stop, queued market sell DAY for 9:30 ET open.
+- All other 4 positions held (APD, AVGO, GOOGL, MSFT) — all under +5% UPL, no tightening triggers, theses intact.
+- No winners ≥ +15% so no stop tightening this scan.
+
+### Notes
+- Pre-market planned the FN→SE swap; SE has not been bought yet (market-open routine handles new buys, not midday). The FN exit was independently mandated by the -7% cut rule. SE purchase remains the market-open routine's job; do not initiate from midday.
+- MSFT + GOOGL earnings AMC tomorrow (Apr 29). Both held into print under existing 10% trails. Catalyst risk acknowledged; trails handle worst-case.
+- APD earnings BMO Apr 30 — single-name event risk on a +1.48% position, trail at $276.56 handles.
+
