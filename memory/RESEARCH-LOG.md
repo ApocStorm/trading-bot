@@ -298,3 +298,80 @@ Note: FN tape rebounded overnight (last trade $684.41 vs midday $646.95 mark), b
 ### Decision
 **EXECUTE — SWAP already in flight (FN sell at open; SE buy by market-open routine).** Hold MSFT and GOOGL through tomorrow's print under existing 10% trails. FSS deferred to Wed-PM watch list. NOW remains watch-only.
 
+
+## 2026-04-29 — Pre-Market
+
+### Account snapshot
+- Equity: $100,637.99 | Cash: $80,753.49 | Buying power: $181,391.48 | Daytrade count: 0
+- Positions held: 5/6 — APD, AVGO, GOOGL, MSFT, SE (one open slot)
+- Long market value: $19,884.50 (~19.8% deployed; well below 75–85% target with FOMC + mega-cap-print risk this 24-hour window)
+
+### Held positions (live marks)
+| Ticker | Shares | Entry | Mark | UPL | UPL% | Stop |
+|---|---|---|---|---|---|---|
+| APD   | 10 | $297.59 | $303.35 | +$57.58  | +1.93% | $276.56 (10% trail GTC) |
+| AVGO  | 10 | $398.23 | $401.88 | +$36.50  | +0.92% | $386.38 (10% trail GTC) |
+| GOOGL | 10 | $336.21 | $348.57 | +$123.62 | +3.68% | $317.86 (10% trail GTC) |
+| MSFT  | 10 | $418.37 | $427.25 | +$88.84  | +2.12% | $390.04 (10% trail GTC) |
+| SE    | 59 | $85.07  | $86.00  | +$54.87  | +1.09% | $78.09  (10% trail GTC) |
+
+All five trailing stops verified `type=trailing_stop`, `time_in_force=gtc`, `trail_percent=10`. Whole book green. FN→SE swap from 2026-04-28 fully executed; book balanced.
+
+### Market context
+- WTI ~$99.32 | Brent ~$112–113 — Hormuz strait effective closure persists; IEA flagged largest supply shock on record. Trump asked Iran to lift naval blockade while talks continue. Oil bid into multi-month highs.
+- ES futures: roughly flat to +0.07%; NQ +0.30–0.39%; Dow flat. Muted pre-market into FOMC + Mag-7 prints.
+- VIX: not directly cited; tape calm but priced for event risk (MSFT/GOOGL/META/AMZN implied moves ~5–7%).
+- Today's catalysts:
+  - **FOMC decision 2:00 pm ET** — Powell's expected final meeting as chair. CME FedWatch 100% probability of HOLD at 3.5–3.75%; presser at 2:30 pm.
+  - **Mag-7 earnings AMC tonight: MSFT, GOOGL (both held), META, AMZN.** Combined ~$600B+ AI capex spend in 2026; Azure 38% constant-currency growth + Cloud >50% YoY are the two key tells.
+  - **FSS BMO today** — gov-watch top-3 ticker; analyst expects rev +24.9% YoY / EPS ~$1.00. Tape closed yesterday $111.64 (down from $115.65 24 hours earlier), no print yet at this writing.
+  - APD reports tomorrow (Thu Apr 30) BMO — held, 1.93% UPL, trail intact.
+  - AAPL Thu Apr 30 AMC.
+- Notable pre-market movers: STX +17% (data-storage strength after Q1 print), BBBY +23.9% (Q1 beat), OMCL +21%; HOOD -10% after Q1 miss.
+- Sector momentum YTD (carry): Energy / Materials / Industrials leading; Tech & Comm Svcs lagging YTD but front-loaded with tonight's catalysts.
+- (Perplexity unavailable — empty PERPLEXITY_API_KEY in environment; market context sourced via native WebSearch fallback per pre-market.md STEP 3.)
+
+### Gov-Watch picks in play (from GOV-WATCHLIST.md, refreshed 2026-04-23)
+- **APD** — Gottheimer (D), score 37.6 — held, +1.93%.
+- **SE**  — Gottheimer (D), score 34.4 — held, +1.09%.
+- **FN**  — Gottheimer (D), score 46.8 — exited Mon at -10.14% (-7% rule).
+- **FSS** — Gottheimer (D), score 39.5 — earnings BMO today; await print before action.
+- **NOW** — Gottheimer (D), score 1.9 — capitulated, watch only.
+- **IFNNY** — score 18.0 — illiquid (no trade tape), skip.
+
+### STRONG RECS (STEP 3b)
+
+#### A) Top 3 BUY candidates
+
+| Rank | Ticker | Last | Entry trigger | Stop | Target | R:R | Conviction | Thesis |
+|---|---|---|---|---|---|---|---|---|
+| 1 | FSS | $111.64 | Post-print reclaim of $115 if Q1 beats analyst $1.00 EPS / +24.9% rev | $100.50 (-10%) | $128.40 (+15%) | ~1.5:1 | **STRONG BUY** *(post-print)* | Federal Signal: street-sweepers, sewer trucks, hydro-excavation gear, vacuum loaders. Q4 was a 26.5% revenue beat on $597M; FY26 guide $4.50–4.80 EPS / $2.55–2.65B sales. Gov-watch score 39.5 (Gottheimer). $138 average analyst PT (~24% upside). Trigger only after BMO print today confirms guide intact. |
+| 2 | STX | ~$120 (gap +17%) | Pullback entry to 10-day MA, NOT chase | ~10% trail | +15% | ~1.5:1 | **WATCH** | Seagate: hard-disk and storage drives — the cheap-bulk-data tier of every data center. Gapped +17% pre-market on stronger Q1 profit and revenue outlook; data-storage demand riding AI build-out. Buy on a base rebuild, not at the gap top. |
+| 3 | NOW | $90.52 | Reclaim of 10-day MA + base build | $81.50 (-10%) | $104.00 (+15%) | ~1.5:1 | **WATCH** | ServiceNow: enterprise IT-workflow software. Down ~30% YTD; gov-watch flagged but score 1.9 (deep capitulation). AI-revenue trajectory $1.5B+ in 2026 per CEO. Falling-knife risk too high for entry today; needs base. |
+
+No STRONG BUY trigger fires before the post-print read on FSS and the Mag-7 prints AMC. Heavy concentration of single-name event risk in the next 24 hours; emitted as recommendations only.
+
+#### B) Sell / Trim / Swap on current book
+
+- **APD** — STRONG HOLD into print. +1.93% UPL, defensive Materials sleeve, FY26 guide $12.85–13.15 EPS reaffirmed, dividend hiked 44 consecutive years. Earnings BMO Thu Apr 30 — moderate event risk; trail intact at $276.56.
+- **AVGO** — STRONG HOLD. +0.92% UPL, AI revenue +106% YoY in Q1, $10.7B guided for Q2 (+140%). Median PT $458 (~14% upside). Trail at $386.38.
+- **GOOGL** — HOLD into print tonight. +3.68% UPL, Strong Buy consensus, Cloud expected >50% YoY (lead vs Azure mid-30s). AI monetization + capex $175–185B for 2026 are the swing factors. Trail at $317.86 — well below current $348.57; even an 8.8% adverse gap is absorbed.
+- **MSFT** — HOLD into print tonight. +2.12% UPL. Azure 38% constant-currency is the single key tell; capex ~$145B; OpenAI deal restructure (Apr 27) supportive. Trail at $390.04 — current $427.25, 8.7% buffer.
+- **SE** — STRONG HOLD. +1.09% UPL, fresh entry; Shopee GMV guided ~25% YoY 2026, Monee loan book +80% YoY, Garena double-digit growth, Strong Buy consensus, no near-term earnings risk. Trail at $78.09.
+
+No SWAP today — every held position rated HOLD or better, none sub--7%, none with thesis decay. The single open slot stays unfilled into FOMC + Mag-7 prints by deliberate event-risk discipline (3 of 5 holdings already report inside 24 hours; adding a 6th catalyst trade now would over-stack).
+
+#### C) Status: **RECOMMEND-ONLY**
+
+- Cap 5/6, weekly 2/3, sizing/cash/PDT all clear → mechanical rules WOULD pass for a single buy.
+- Withholding execution on event-risk grounds: MSFT + GOOGL print AMC + APD BMO Thu = 3/5 of book under catalyst overnight; FOMC at 2 pm same day. Top buy candidates (FSS, STX, NOW) all need a confirmation event (post-print reclaim, base build) that has not fired yet. Picks logged + Telegrammed per Kevin's 2026-04-24 standing directive.
+
+### Risk Factors
+- **Mag-7 earnings cluster AMC tonight**: MSFT + GOOGL (both held) + META + AMZN, options pricing 5–7% implied moves. Single overnight could swing the book ±2–4%.
+- **FOMC 2 pm ET** — Powell's likely final meeting; rate decision a near-certainty (HOLD), but presser tone risk on inflation / Iran-war oil pass-through.
+- **APD prints BMO tomorrow** — third event-risk overlay on the book.
+- Hormuz/oil headlines whipsaw both ways; energy not directly held but cross-sector risk via inflation.
+- Tech-heavy book (AVGO + MSFT + GOOGL ≈ 59% of long market value) into a Tech-lagging YTD tape; SE adds Asia/EM diversification.
+
+### Decision
+**RECOMMEND-ONLY — picks logged, no buys today.** Hold all five through FOMC + AMC prints under existing 10% trails. Reassess FSS after BMO print and STX after a base rebuild. Next decision point: tomorrow's pre-market with MSFT/GOOGL print reactions in hand.
